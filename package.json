@@ -1,13 +1,14 @@
 {
-  "name": "webhook-talk",
+  "name": "webhook-dns-consultoria",
   "version": "1.0.0",
+  "description": "Webhook de integração entre Umbler Talk e TomTicket",
   "main": "index.js",
   "type": "module",
-  "dependencies": {
-    "express": "^4.19.2"
-  },
   "scripts": {
     "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.19.2"
   }
 }
-
